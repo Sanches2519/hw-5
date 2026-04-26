@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@3.0.1/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-container">
+        <a
+          class="logo"
+          href="./index.html"
+          aria-label="Логотип сайта WebStudio"
+          lang="en"
+        >
+          Web<span class="header-logo">Studio</span>
+        </a>
+        <nav>
+          <ul class="list nav-list">
+            <li class="nav-item">
+              <a class="header-link nav-link" href="./index.html"> Студія </a>
+            </li>
+            <li class="nav-item">
+              <a class="header-link nav-link current" href="./portfolio.html"
+                >Портфоліо
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="header-link nav-link" href="#address"> Контакти </a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="list list-contacts">
+          <li class="item-contacts">
+            <a class="header-link header-nav" href="mailto:info@devstudio.com">
+              <svg class="header-contact-icon" width="16" height="12">
+                <use href="./images/icons.svg#mail"></use></svg
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="header-link header-nav" href="tel:+380961111111">
+              <svg class="header-contact-icon" width="10" height="16">
+                <use href="./images/icons.svg#tel"></use></svg
+              >+38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section class="filters">
+        <div class="container">
+          <h2 class="visually-hidden">Портфоліо</h2>
+          <ul class="list filters-list">
+            <li class="filters-item">
+              <button class="filters-btn filters-btn-1" type="button">
+                Усі
+              </button>
+            </li>
+            <li class="filters-item">
+              <button class="filters-btn filters-btn-2" type="button">
+                Веб-сайти
+              </button>
+            </li>
+            <li class="filters-item">
+              <button class="filters-btn filters-btn-3" type="button">
+                Додатки
+              </button>
+            </li>
+            <li class="filters-item">
+              <button class="filters-btn filters-btn-4" type="button">
+                Дизайн
+              </button>
+            </li>
+            <li class="filters-item">
+              <button class="filters-btn filters-btn-5" type="button">
+                Маркетинг
+              </button>
+            </li>
+          </ul>
+          <ul class="list grid project-list">
+            <li class="project-item grid-item">
+              <article class="project-cart">
+                <a class="project-link" href="#"
+                  ><img
+                    class="img project-img"
+                    src="./images/project/card-1.jpg"
+                    alt="Веб-сайт Технокряк"
+                    width="370"
+                    height="294"
+                  />
+                  <div class="project-content">
+                    <h3 class="project-title">Технокряк</h3>
+                    <p class="project-text">Веб-сайт</p>
+                  </div></a
+                >
+              </article>
+            </li>
+            <li class="project-item grid-item">
+              <article class="project-cart">
+                <a class="project-link" href="#"
+                  ><img
+                    class="img project-img"
+                    src="./images/project/card-2.jpg"
+                    alt="Постер New Orlean vs Golden Star"
+                    width="370"
+                    height="294"
+                  />
+                  <div class="project-content">
+                    <h3 class="project-title">
+                      Постер New Orlean vs Golden Star
+                    </h3>
+                    <p class="project-text">Дизайн</p>
+                  </div></a
+                >
+              </article>
+            </li>
+            <li class="project-item grid-item">
+              <article class="project-cart">
+                <a class="project-link" href="#"
+                  ><img
+                    class="img project-img"
+                    src="./images/project/card-3.jpg"
+                    alt="Ресторан Seafood"
+                    width="370"
+                    height="294"
+                  />
+                  <div class="project-content">
+                    <h3 class="project-title">Ресторан Seafood</h3>
+                    <p class="project-text">Додаток</p>
+                  </div></a
+                >
+              </article>
+            </li>
+            <li class="project-item grid-item">
+              <article class="project-cart">
+                <a class="project-link" href="#"
+                  ><img
+                    class="img project-img"
+                    src="./images/project/card-4.jpg"
+                    alt="Проєкт Prime"
+                    width="370"
+                    height="294"
+                  />
+                  <div class="project-content">
+                    <h3 class="project-title">Проєкт Prime</h3>
+                    <p class="project-text">Маркетинг</p>
+                  </div></a
+                >
+              </article>
+            </li>
+            <li class="project-item grid-item">
+              <article class="project-cart">
+                <a class="project-link" href="#"
+                  ><img
+                    class="img project-img"
+                    src="./images/project/card-5.jpg"
+                    alt="Проєкт Boxes"
+                    width="370"
+                    height="294"
+                  />
+                  <div class="project-content">
+                    <h3 class="project-title">Проєкт Boxes</h3>
+                    <p class="project-text">Додаток</p>
+                  </div></a
+                >
+              </article>
+            </li>
+            <li class="project-item grid-item">
+              <article class="project-cart">
+                <a class="project-link" href="#"
+                  ><img
+                    class="img project-img"
+                    src="./images/project/card-6.jpg"
+                    alt="Веб-сайт Inspiration has no Borders"
+                    width="370"
+                    height="294"
+                  />
+                  <div class="project-content">
+                    <h3 class="project-title" lang="en">
+                      Inspiration has no Borders
+                    </h3>
+                    <p class="project-text">Веб-сайт</p>
+                  </div></a
+                >
+              </article>
+            </li>
+            <li class="project-item grid-item">
+              <article class="project-cart">
+                <a class="project-link" href="#"
+                  ><img
+                    class="img project-img"
+                    src="./images/project/card-7.jpg"
+                    alt="Видання Limited Edition"
+                    width="370"
+                    height="294"
+                  />
+                  <div class="project-content">
+                    <h3 class="project-title">Видання Limited Edition</h3>
+                    <p class="project-text">Дизайн</p>
+                  </div></a
+                >
+              </article>
+            </li>
+            <li class="project-item grid-item">
+              <article class="project-cart">
+                <a class="project-link" href="#"
+                  ><img
+                    class="img project-img"
+                    src="./images/project/card-8.jpg"
+                    alt="Проєкт LAB"
+                    width="370"
+                    height="294"
+                  />
+                  <div class="project-content">
+                    <h3 class="project-title">Проєкт LAB</h3>
+                    <p class="project-text">Маркетинг</p>
+                  </div></a
+                >
+              </article>
+            </li>
+            <li class="project-item grid-item">
+              <article class="project-cart">
+                <a class="project-link" href="#"
+                  ><img
+                    class="img project-img"
+                    src="./images/project/card-9.jpg"
+                    alt="Growing Business"
+                    width="370"
+                    height="294"
+                  />
+                  <div class="project-content">
+                    <h3 class="project-title" lang="en">Growing Business</h3>
+                    <p class="project-text">Додаток</p>
+                  </div></a
+                >
+              </article>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer" id="address">
+      <div class="container">
+        <div class="footer-container">
+          <div class="footer-contact">
+            <a
+              class="footer-logo-link"
+              href="./index.html"
+              aria-label="Логотип сайта WebStudio"
+              lang="en"
+              >Web<span class="footer-logo">Studio</span></a
+            >
+            <address class="address">
+              <p class="address-text">м. Київ, пр-т Лесі Українки, 26</p>
+              <ul class="list">
+                <li class="address-item">
+                  <a class="address-link" href="mailto:info@devstudio.com"
+                    >info@devstudio.com</a
+                  >
+                </li>
+                <li class="address-item">
+                  <a class="address-link" href="tel:+380961111111"
+                    >+38 096 111 11 11</a
+                  >
+                </li>
+              </ul>
+            </address>
+          </div>
+          <div class="footer-social">
+            <p class="footer-social-text">приєднуйтесь</p>
+            <ul class="list social-list">
+                  <li class="social-item">
+                    <a
+                      class="social-link footer-social-link"
+                      href="https://www.instagram.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="іконка Instagram"
+                      ><svg class="footer-social-icon" width="20" height="20">
+                        <use href="./images/icons.svg#instagram"></use></svg
+                    ></a>
+                  </li>
+                  <li class="social-item">
+                    <a
+                      class="social-link footer-social-link"
+                      href="https://x.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="іконка Twitter"
+                      ><svg class="footer-social-icon" width="20" height="20">
+                        <use href="./images/icons.svg#twitter"></use></svg
+                    ></a>
+                  </li>
+                  <li class="social-item">
+                    <a
+                      class="social-link footer-social-link"
+                      href="https://www.facebook.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="іконка Facebook"
+                      ><svg class="footer-social-icon" width="20" height="20">
+                        <use href="./images/icons.svg#facebook"></use></svg
+                    ></a>
+                  </li>
+                  <li class="social-item">
+                    <a
+                      class="social-link footer-social-link"
+                      href="https://linkedin.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="іконка Linkedin"
+                      ><svg class="footer-social-icon" width="20" height="20">
+                        <use href="./images/icons.svg#linkedin"></use></svg
+                    ></a>
+                  </li>
+                </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
